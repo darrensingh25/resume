@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+input {
+    font-size: 14px;
+    width:600px;
+    height:35px;
+    border-radius: 5px;
+    border:2px solid blue; 
+    margin: 5px;
+    padding: 10px;
+} 
+#submit {
+    background-color:yellow ;
+    color: red;
+    font-size: 10px;
+    border-radius: 0px 50px;
+}
+form{
+    text-align: center;
+}  

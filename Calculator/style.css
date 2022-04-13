@@ -1,0 +1,55 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #02c1d3, #00d2c6, #00dfa2, #56e86b, #a8eb12);   
+}
+.container {
+    text-align: center;
+
+}
+table {
+    margin: auto;
+    background-color: white;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 1px;
+    border: 2px solid green;
+   
+}
+#screen {
+    background-color: black;
+    height: 72px;
+    width: 320px;
+    color: white;
+}
+.number {
+    background-color:#C1F3F2;
+    padding: 29px;
+    font-size: 22px;
+    border-radius: 10px;
+    width:100%;
+}
+.operator {
+    background-color: #C1F3F2;
+    padding: 29px;
+    font-size: 22px;
+    border-radius: 10px;
+    width:100%;
+}
+.reset {
+    background-color: #C1F3F2;
+    width:100%;
+    padding: 26px;
+    border-radius: 10px;
+
+}
+.result {
+    background-color:#C1F3F2;
+    width:100%;
+    padding: 34px;
+    border-radius: 10px;
+}

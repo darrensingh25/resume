@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.outer {
+  width: 100%;
+}
+.parent {
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+}
+.container1 {
+  float: left;
+  width: 35%;
+  padding: 52px 35px 52px 35px;
+  padding-bottom: 30px;
+}
+.container2 {
+  float: right;
+  width: 65%;
+  padding: 50px 67px;
+  padding-bottom: 72px;
+}
+.cont1color {
+  background-color: #f2d8d6;
+}
+.min-height{
+min-height: 740px;
+}
+.cont2color {
+  background-color: #fcf7f7;
+}
+.innerbodybottom {
+  float: left;
+  width: 100%;
+}
+.unordered {
+  padding: 18px;
+  margin-bottom: 18px;
+}
+.skills {
+    padding: 0 10px;
+}
+.workhistory {
+    padding: 0 13px;
+}
+.education {
+    padding:0px 12px;
+  padding-top: 42px;
+}
+.markbottom {
+  margin-bottom: 28px;
+}
+.markbottomtop {
+    margin-top: 12px;
+}
+.unorderedrightsummary {
+  padding-top: 16px;
+  margin-left: 18px;
+  padding-bottom: 42px;
+}
+.summarypadding {
+  padding-top: 10px;
+}
+.markbottom1 {
+    margin-top: 14px;
+}
+.markbottom2 {
+    margin-top: 8px;
+    
+}
+.markbottomleft {
+  padding-top: 16px;
+}
+.unorderedright {
+  margin-left: 18px;
+}
+.contact-logo img,
+.contact-logo {
+  height: 20px;
+  width: 22px;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.logo {
+  display: flex;
+}
+.inside-text {
+  margin-left: 10px;
+}
+.line{
+    border: solid 1px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    width: 100%;
+  }
+  .container2 {
+    width: 100%;
+}
+  .container2.cont2color {
+    width: 100%;
+}
+}

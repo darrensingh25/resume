@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <form autocomplete="off">
+        <div class="main">
+            <div class="parent">
+               <!-- <div class="outer"> -->
+                    <div class="header">
+                        <h1>Create Account</h1>
+                    </div>
+                    <div class="formbody">
+                        <div class="form-in">
+                            <div class="form-container1">
+                                <label for="fname">First name*</label>
+                                <input type="text" class="form-control" name="fname" id="fname"
+                                    placeholder="enter your first name" /> <span id="fnames"></span>
+                            </div>
+
+                            <div class="form-container2">
+                                <label for="lname">Last name </label>
+                                <input type="text" class="form-control" name="fname" id="lname"
+                                    placeholder="enter your last name" />
+                                <br />
+                            </div>
+                        </div>
+
+                        <div class="form-in">
+                            <label for="email">Email*</label> <br>
+                            <input type="email" class="form-control mail" name="email" id="email"
+                                placeholder="enter your email" />
+                        </div>
+
+                        <div class="form-in">
+                            <div class="form-container1">
+                                <label for="password"> Password*</label>
+                                <input type="password" class="form-control" name="password" id="password"
+                                    placeholder="enter your password" />
+                            </div>
+                            <div class="form-container2">
+                                <label for="confirmpassword"> Password*</label>
+                                <input type="password" class="form-control" name="confirmpassword" id="confirmpassword"
+                                    placeholder="enter your password again" />
+                            </div>
+                        </div>
+                        <div class="form-in">
+                            <div class="form-container1">
+                                <!-- <div class="gender"> -->
+                                <label>Gender :</label> <br>
+
+                                <label class="gender"> <input type="radio" name="gender" id="male">Male </label>
+                                <label class="gender"> <input type="radio" name="gender" id="female">Female </label>
+                            </div>
+                            <div class="form-container2">
+                                <!-- <div class="hobbies"> -->
+                                <label>Hobbies :</label><br>
+                                <!--  <label for="hobbies1">Music</label> -->
+                                <label class="hobbies"> <input type="checkbox" name="music" id="hobbies1 " /> Music
+                                </label>
+                                <label class="hobbies"> <input type="checkbox" name="sports" id="hobbies2 " /> Sports
+                                </label>
+                                <label class="hobbies"> <input type="checkbox" name="travel" id="hobbies3 " /> Travel
+                                </label>
+                                <label class="hobbies"> <input type="checkbox" name="movies" id="hobbies4 " /> Movies
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-in">
+                            <div class="form-container1">
+                                <!-- <div class="income"> -->
+                                <label for=>Source of Income :</label><br>
+                                <select class="form-control income">
+                                    <option name="income" id="1"> 1</option>
+                                    <option name="income" id="2"> 2</option>
+                                    <option name="income" id="3"> 3</option>
+                                    <option name="income" id="4"> 4</option>
+                                </select>
+                            </div>
+                            <div class="form-container2">
+                                <label for="range">Income :</label> <br>
+                                <input type="range" class="form-control range" value="0" max="400000"
+                                oninput="num.value = this.value" id="range">
+                                <output id="num" ></output>k<br>
+                                <span id="num1" class="errormessage"> </span>
+                            </div>
+                        </div>
+                        <div class="form-in">
+                            <div class="form-container1">
+                                <label for="file">Upload Profile Picture</label>
+                                <input type="file" class="form-control" name="file" id="file" />
+                            </div>
+                            <div class="form-container2">
+                                <label for="age">Age</label> <br>
+                                <input type="number" class="form-control" name="file" id="age" />
+                            </div>
+                        </div>
+
+                        <div class="form-in">
+                            <div class="form-container3">
+                                <label for="area">Bio: </label> <br>
+                                <textarea class="area" name="area" id="area"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <button type="button" class="create" onclick="validate()"> create</button>
+                    </div>
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
